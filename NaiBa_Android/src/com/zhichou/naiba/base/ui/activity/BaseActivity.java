@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.Window;
 
 import com.lidroid.xutils.ViewUtils;
+import com.umeng.analytics.MobclickAgent;
 import com.zhichou.naiba.R;
 import com.zhichou.naiba.base.manager.ActivityManager;
 import com.zhichou.naiba.base.ui.view.CustomProgressDialog;
@@ -145,13 +146,13 @@ public abstract class BaseActivity extends FragmentActivity {
 
 	public void onResume() {
 		super.onResume();
-		//MobclickAgent.onResume(this);
+		MobclickAgent.onResume(this);
 	}
 
 	public void onPause() {
 		super.onPause();
 		hideLoading();
-		//MobclickAgent.onPause(this);
+		MobclickAgent.onPause(this);
 	}
 
 	/**
