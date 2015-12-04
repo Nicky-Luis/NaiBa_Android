@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 透明颜色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 深黑色 -->
+    <color name="main_deep_black">#4d4d4d</color>
+    <!-- 浅黑色 -->
+    <color name="main_light_black">#7c7c7c</color>
+    <!-- 主白色 -->
+    <color name="main_white">#ffffff</color>
+    <!-- 主金色 -->
+    <color name="main_gold">#dfb574</color>
+
+</resources>
