@@ -14,4 +14,12 @@
     <string name="net_error">网络异常</string>
     <!-- Toast -->
 
+
+    <!-- Main -->
+    <string name="main_home_title">首页</string>
+    <string name="main_discovery_title">发现</string>
+    <string name="main_community_title">社区</string>
+    <string name="main_me_title">我的</string>
+    <!-- Main -->
+
 </resources>

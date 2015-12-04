@@ -20,7 +20,7 @@
 
         <!-- 启动activity -->
         <activity
-            android:name="com.zhichou.naiba.test.TestActivity"
+            android:name="com.zhichou.naiba.base.ui.activity.MainTabActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
